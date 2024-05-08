@@ -1,0 +1,25 @@
+{
+  "name": "BsLogging",
+  "version": "1.0.0",
+  "summary": "A Logging API for Swift.",
+  "homepage": "https://github.com/BaldStudio/BsLogging.git",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "crzorz": "crzorz@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/BaldStudio/BsLogging.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0",
+    "osx": "13.0"
+  },
+  "source_files": "BsLogging/Sources/**/*.swift",
+  "swift_version": "5.0"
+}
