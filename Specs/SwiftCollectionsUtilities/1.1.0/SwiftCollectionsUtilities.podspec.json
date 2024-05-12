@@ -1,0 +1,25 @@
+{
+  "name": "SwiftCollectionsUtilities",
+  "version": "1.1.0",
+  "summary": "Commonly used data structures for Swift",
+  "homepage": "https://github.com/apple/swift-collections",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE.txt"
+  },
+  "authors": "Apple",
+  "source": {
+    "git": "https://github.com/apple/swift-collections.git",
+    "tag": "1.1.0",
+    "commit": "5a7bab7"
+  },
+  "swift_versions": "5.6",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "module_name": "_CollectionsUtilities",
+  "ios": {
+    "source_files": "Sources/_CollectionsUtilities/**/*.swift"
+  },
+  "swift_version": "5.6"
+}
