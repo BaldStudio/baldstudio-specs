@@ -13,7 +13,7 @@
   "source": {
     "git": "https://github.com/BaldStudio/BsLogging.git",
     "tag": "1.0.0",
-    "commit": "2e22167"
+    "commit": "32be951"
   },
   "swift_versions": "5.0",
   "static_framework": true,
@@ -21,6 +21,6 @@
     "ios": "13.0",
     "osx": "13.0"
   },
-  "source_files": "BsLogging/Sources/**/*.swift",
+  "source_files": "BsLogging/Source/**/*.swift",
   "swift_version": "5.0"
 }
