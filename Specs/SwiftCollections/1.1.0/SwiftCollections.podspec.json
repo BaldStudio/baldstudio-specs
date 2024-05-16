@@ -1,5 +1,5 @@
 {
-  "name": "SwiftCollectionsUtilities",
+  "name": "SwiftCollections",
   "version": "1.1.0",
   "summary": "Commonly used data structures for Swift",
   "homepage": "https://github.com/apple/swift-collections",
@@ -17,9 +17,16 @@
   "platforms": {
     "ios": "13.0"
   },
-  "module_name": "_CollectionsUtilities",
-  "ios": {
-    "source_files": "Sources/_CollectionsUtilities/**/*.swift"
-  },
+  "subspecs": [
+    {
+      "name": "OrderedCollections",
+      "ios": {
+        "source_files": "Sources/OrderedCollections/**/*.swift"
+      },
+      "dependencies": {
+        "SwiftCollectionsUtilities": []
+      }
+    }
+  ],
   "swift_version": "5.6"
 }
