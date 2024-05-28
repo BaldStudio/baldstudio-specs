@@ -1,0 +1,44 @@
+{
+  "name": "BsFoundation",
+  "version": "1.0.0",
+  "summary": "BsFoundation",
+  "homepage": "http://github.com/BaldStudio/BsFoundation.git",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "crzorz": "crzorz@outlook.com"
+  },
+  "source": {
+    "git": "git@github.com:BaldStudio/BsFoundation.git",
+    "tag": "1.0.0",
+    "commit": "9158797"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "ios": {
+    "source_files": "BsFoundation/Sources/*",
+    "frameworks": "UIKit",
+    "dependencies": {
+      "BsLogging": [],
+      "SwiftCollections": [
+        "1.1.0"
+      ]
+    }
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "BsFoundation/Sources/Core/**/*"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "BsFoundation/Sources/UIKit/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}
