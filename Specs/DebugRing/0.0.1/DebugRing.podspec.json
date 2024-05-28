@@ -1,0 +1,39 @@
+{
+  "name": "DebugRing",
+  "version": "0.0.1",
+  "summary": "DebugRing",
+  "homepage": "https://github.com/BaldStudio/DebugRing.git",
+  "license": {
+    "type": "MIT",
+    "text": "LICENSE"
+  },
+  "authors": {
+    "crzorz": "crzorz@outlook.com"
+  },
+  "source": {
+    "git": "git@github.com:BaldStudio/DebugRing.git",
+    "tag": "0.0.1",
+    "commit": "0b3782b"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "source_files": "DebugRing/Source/**/*",
+  "resource_bundles": {
+    "DebugRing": [
+      "DebugRing/**/*.xib",
+      "DebugRing/Assets/*"
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "BsFoundation": [],
+      "FLEX": [
+        "~> 5.22.10"
+      ]
+    }
+  },
+  "swift_version": "5.0"
+}
